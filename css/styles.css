@@ -76,6 +76,10 @@ ol {
     color: var(--navy-blue);
 }
 
+.header-menu-link {
+    color: var(--navy-blue);
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: var(--ocean);
@@ -137,7 +141,7 @@ address {
 }
 
 .main-section-values-title {
-    display: none;
+    visibility: hidden;
 }
 
 .main-section-team {
