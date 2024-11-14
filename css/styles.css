@@ -148,9 +148,9 @@ address {
     background-color: var(--white);
 }
 
-.main-section-values-title-h3,
-.main-section-team-title-h3,
-.main-section-portfolio-title-h3 {
+.main-section-values-subtitle,
+.main-section-team-subtitle,
+.main-section-portfolio-subtitle {
     font-weight: var(--font-weight-medium);
     font-size: 20px;
     line-height: 1.2;
