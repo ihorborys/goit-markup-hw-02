@@ -24,7 +24,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: var(--font-weight-regular);
     background-color: var(--white);
-    color: #434455;
+    color: var(--slate);
 }
 
 /* Скидання підкреслення для посилань */
@@ -36,7 +36,7 @@ a {
 ul,
 ol {
     list-style: none; /* Видаляє стандартні маркери */
-    padding-left: 0; /* Опціонально, якщо потрібно прибрати відступ */
+    /*padding-left: 0; !* Опціонально, якщо потрібно прибрати відступ *!*/
 }
 
 
@@ -48,29 +48,30 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--iris);
 }
 
 .header-logo:active {
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header-menu-link:active {
-    color: #404bbf;
+    color: var(--ocean);
     text-decoration: underline;
 }
 
-.header-footer-logo-span {
+.header {
     font-family: var(--second-family), sans-serif;
-    color: #4d5ae5;
+    color: var(--iris);
 }
 
 .header-logo-span {
-    color: #2e2f42;
+    color: var(--navy-blue);
 }
 
 
@@ -131,7 +132,7 @@ address {
 }
 
 .main-section-hero-button:hover {
-    background-color: #404BBF;
+    background-color: var(--ocean);
 }
 
 .main-section-values-title {
@@ -139,20 +140,21 @@ address {
 }
 
 .main-section-team {
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 
 .main-section-team-profile {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
-.main-section-values h3,
-.main-section-team h3,
-.main-section-portfolio h3 {
+.main-section-values-title-h3,
+.main-section-team-title-h3,
+.main-section-portfolio-title-h3 {
     font-weight: var(--font-weight-medium);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .main-section-values-p,
@@ -185,7 +187,7 @@ address {
 }
 
 .footer-logo-span {
-    color: #f4f4fd;
+    color: var(--cloud);
 }
 
 .footer-p {
@@ -193,5 +195,5 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd ;
+    color: var(--cloud) ;
 }
