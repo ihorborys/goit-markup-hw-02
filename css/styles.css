@@ -94,7 +94,7 @@ address {
     font-style: normal;
 }
 
-.address a {
+.header-address-link {
     font-weight: var(--font-weight-regular);
     color: var(--slate);
     font-size: 16px;
@@ -102,7 +102,8 @@ address {
     letter-spacing: 0.02em;
 }
 
-.address a:hover {
+.header-address-link:hover,
+.header-address-link:focus {
     color: var(--ocean);
 }
 
