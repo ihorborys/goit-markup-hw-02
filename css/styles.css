@@ -36,7 +36,6 @@ a {
 ul,
 ol {
     list-style: none; /* Видаляє стандартні маркери */
-    /*padding-left: 0; !* Опціонально, якщо потрібно прибрати відступ *!*/
 }
 
 
@@ -55,14 +54,9 @@ ol {
     color: var(--ocean);
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.header-footer-logo:hover,
+.header-footer-logo:focus {
     color: var(--ocean);
-}
-
-.header-menu-link:active {
-    color: var(--ocean);
-    text-decoration: underline;
 }
 
 .header {
@@ -74,12 +68,22 @@ ol {
     color: var(--navy-blue);
 }
 
-
 .header-menu {
     font-weight: var(--font-weight-medium);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--ocean);
+}
+
+.header-menu-link:active {
+    color: var(--ocean);
+    text-decoration: underline;
 }
 
 address {
@@ -108,8 +112,6 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    /*width: 1440px;*/
-    /*height: 312px;*/
 }
 
 .main-section-hero-title {
@@ -126,12 +128,11 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    /*width: 169px;*/
-    /*height: 56px;*/
     cursor: pointer;
 }
 
-.main-section-hero-button:hover {
+.main-section-hero-button:hover,
+.main-section-hero-button:focus {
     background-color: var(--ocean);
 }
 
@@ -175,6 +176,7 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--navy-blue);
 }
 
 
@@ -182,8 +184,6 @@ address {
 .footer {
     background-color: var(--navy-blue);
     font-family: "Raleway", sans-serif
-    /*width: 1440px;*/
-    /*height: 312px;*/
 }
 
 .footer-logo-span {
